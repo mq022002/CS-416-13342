@@ -93,4 +93,27 @@ body {
         background-color: #515164;
         color: #fff;
     }
+
+    /* START OF UNSUBMITTED */
+
+    .nav {
+        padding-top: 49px;
+
+        & ul {
+            list-style-type: none;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        & li a {
+            display: block;
+            padding: 14px 16px;
+        }
+    }
+
+    /* END OF UNSUBMITTED */
 }
